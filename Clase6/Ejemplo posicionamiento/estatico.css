@@ -1,0 +1,31 @@
+.contenedor {
+    background-color: rgb(121, 128, 134);
+    width: 60%;/*el ancho que va a ocupar la caja de acuerdo a la vista de la pagina*/
+    margin: 0 auto;/*centrar la caja*//*el primer valor se relaciona a arriba y abajo de la caja, es decir queda en 0 en este caso y no modifico, el otro valor se relaciona de derecha a izquierda. auto lo hace automaticamente y lo deja en el centro siempre de acuerdo a las distintas resoluciones*/
+    height: 600px;
+    /*padding-top: 20px; para separar la caja verde del margen de la caja gris*/
+}
+
+.verde  {
+    background-color: lightgreen;
+    width: 90%;
+    margin: 0 auto 20px; 
+    /*arriba-laterales-abajo*/
+    height: 150px;
+}
+
+.celeste  {
+    background-color: rgb(89, 139, 156);
+    width: 90%;
+    margin: 0 auto 20px; 
+    /*arriba-laterales-abajo*/
+    height: 150px;
+}
+
+.amarillo  {
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto 20px; 
+    /*arriba-laterales-abajo*/
+    height: 150px;
+}
