@@ -1,0 +1,14 @@
+.contenedor {
+    background-color: blueviolet;
+    display: inline-flex;
+    /*flex-direction: row-reverse;fila invertida*/
+     /* flex-direction: column;tambien esta columna invertida*/
+     flex-wrap: wrap;
+}
+
+.item   {
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}

@@ -1,0 +1,16 @@
+.contenedor {
+    background-color: blueviolet;
+    display: flex;
+    /*justify-content: flex-end;*/
+    /*justify-content: center;ubica los elementos en el centro*/
+    /*justify-content: space-between;ubica el primer item y el ultimo cerca de los bordes y los otros los distribuye de manera automatica*/
+    justify-content: space-evenly;/*separa de manera pareja*/
+}
+
+
+.item   {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
