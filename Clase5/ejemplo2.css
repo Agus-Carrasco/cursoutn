@@ -1,0 +1,11 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive;*/
+h2  {
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+}

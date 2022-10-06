@@ -1,0 +1,35 @@
+.caja   {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    box-shadow: 20px 30px 10px black;
+    /*el primer parametro es en el eje x
+    el segundo con el eje y
+    el tercero es el desenfoque 
+    y ultimo el color*/
+    border: 2px solid white;
+}
+
+.caja2  {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    /*border-radius: 15px;*/
+    border-radius: 0 30px;
+    /*primer valor de izquiera a derecha en diagonal
+    segundo valor de derecha a izquiera en diagonal
+    redondea las esquinas de la caja, en este caso solo dos*/
+
+}
+
+.texto  {
+    background-color: yellow;
+    column-count: 2;/*cantidad de columnas*/
+    column-gap: 60px;/*separacion entre las columnas*/
+}
+
+.texto p{
+    margin: 0;/*acomodar el texto dentro de la caja, no deja espacio arriba*/
+}
