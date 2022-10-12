@@ -1,0 +1,17 @@
+body  {
+    background-color: blue;
+}
+
+h1  {
+    color: gray;
+}
+
+p   {
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+h2  {
+    color: aqua;
+    display: none;
+}
