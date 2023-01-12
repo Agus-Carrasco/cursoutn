@@ -2,7 +2,7 @@
     background-color: yellow;
     width: 300px;
     height: 300px;
-    margin: 100px;
+    margin: 100px;/*para que la caja se separe del borde de la pagina*/
     box-shadow: 20px 30px 10px black;
     /*el primer parametro es en el eje x
     el segundo con el eje y
@@ -20,7 +20,7 @@
     border-radius: 0 30px;
     /*primer valor de izquiera a derecha en diagonal
     segundo valor de derecha a izquiera en diagonal
-    redondea las esquinas de la caja, en este caso solo dos*/
+    redondea las esquinas de la caja, en este caso solo dos, es para redondear los bordes*/
 
 }
 
@@ -31,5 +31,5 @@
 }
 
 .texto p{
-    margin: 0;/*acomodar el texto dentro de la caja, no deja espacio arriba*/
+    margin: 0;/*acomodar el texto dentro de la caja, no deja separacion entre el texto y el borde de la caja*/
 }
