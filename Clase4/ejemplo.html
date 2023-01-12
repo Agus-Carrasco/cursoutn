@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h3>Trabajamos con imagenes</h3>
     <img src="dipper.jpg" alt="Dipper">
+    <!--ponemos la direccion de origen donde esta la imagen, las imagenes deben estar dentro de la carpeta del codigo -->
     <img src="img/casa.jpg" alt="">
+    <!--alt="" palabra para describir la imagen, tambien ayuda a posicionar en buscadores-->
 
-    <h3>Ejemplo de tabla</table></h3>
+    <h3>Ejemplo de tabla</table>
+    </h3>
     <table border="1">
-        <tr>
-            <td>celda 1</td>
+        <tr><!--las filas se hacen con el elemento tr-->
+            <!--th se utiliza para encabezados de tabla-->
+            <td>celda 1</td><!--las columnas se hacen con el elemento td-->
             <td>celda 2</td>
             <td>celda 3</td>
         </tr>
@@ -31,25 +37,72 @@
     </table>
 
     <h3>Complete el siguiente formulario</h3>
-    <form action="">
-        <p>
+    <form action=""><!--etiqueta para formulario-->
+        <p><!--se puede utilizar el Div tambien, es para que quede uno debajo del otro y no al lado-->
             <label for="">Nombre</label>
             <input type="text">
         </p>
         <p>
-            <input type="text" placeholder="Usuario">
+            <input type="text"
+                placeholder="Usuario"><!--la descripcion aparece dentro del cuadrado donde hay que completar-->
         </p>
         <p>
             <label for="">Contraseña</label>
             <input type="password">
         </p>
         <p>
-            <label for="">Comentarios</label>
-            <textarea name="" id="pepe" cols="30" rows="10"></textarea>
+            <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label for="">Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label for="">Mujer</label>
+            </li>
+        </ul>
         </p>
         <p>
-            <input type="submit" value="Guardar">
+            <label for="">Hobbies</label>
+            <ul><!--ejemplo para marcar en el formulario-->
+                <li>
+                 <input type="checkbox" name="hobbies[]" value="bailar" id="bailar">
+                 <label for="bailar">Bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="cantar" id="cantar">
+                    <label for="cantar">Cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="nadar" id="nadar">
+                    <label for="nadar">Nadar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="correr" id="correr">
+                    <label for="correr">Correr</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="titulo">Titulo</label><!--ejemplo se despliegan las opciones-->
+            <select name="titulo" id="">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="pepe">Comentarios</label>
+            <textarea name="" id="pepe" cols="30" rows="10"></textarea>
+            <!--para comentarios la caja es mas grande,se utiliza textarea. Pepe en for y en id porque se deben utilizar lo mismo en los dos porque estan comunicados-->
+        </p>
+        <p>
+            <input type="submit" value="Guardar"><!-- submit: boton para enviar el formulario, en el value ponemos la palabra que se va a ver en el boton-->
+            <input type="reset" value="Borrar">
         </p>
     </form>
 </body>
+
 </html>

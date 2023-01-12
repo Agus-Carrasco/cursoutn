@@ -12,7 +12,7 @@ p{
     color: green;/*color a todos los p*/
 }
 
-.destacados{
+.destacados{/*. para asignarle estilo a una clase*/
     color: orange;
     font-size: 22px; /*tamaño de la fuente*/
     font-style: italic; /*italic*/
@@ -23,20 +23,19 @@ p{
     width: 300px; /*ancho*/
     height: 400px;/*alto*/
     background-color: lightcoral;
-    text-align: center;
-
-    margin-bottom: 50px;
+    text-align: center; /*alinea el contenido dentro de la caja*/
+    margin-bottom: 50px; /*distancia inferior de la caja*/
     border: 5px solid black; /*grosor tipo color*/
     /*box-sizing: border-box;*/
 }
 
-#celeste    {
+#celeste    { /*celeste es un id*/
     width: 300px;
     height: 400px;
     background-color: lightblue;
-    padding: 20px; /*se utiliza para "margenes internos"*/
-    box-sizing: border-box;
-    border-right: 3px dashed #ff0000;
+    padding: 20px; /*se utiliza para "margenes internos" desde el borde al margen interno*/
+    box-sizing: border-box; /*acomoda las cajas para que queden en la misma linea*/
+    border-right: 3px dashed #ff0000;/*hace una linea en el borde derecho*/
 }
 
 /*
