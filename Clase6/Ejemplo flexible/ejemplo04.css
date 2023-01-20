@@ -1,10 +1,19 @@
+/* alineacion de items 
+justify-content, alinea los elementos en el eje principal(eje x)
+align-content, alinea los elementos en el eje secundario cuando el contenedor es multilinea
+align-items, alina los elementos en el eje secundario cuando el contenedor tiene una linea unica */
+
+
 .contenedor {
     background-color: blueviolet;
     display: flex;
+    /* en este caso el display tiene que ser si o si flex */
+    /*justify-content: flex-start; los elementos se distribuyen desde el inicio de la linea, es la propiedad que viene por defecto */
     /*justify-content: flex-end;*/
     /*justify-content: center;ubica los elementos en el centro*/
-    /*justify-content: space-between;ubica el primer item y el ultimo cerca de los bordes y los otros los distribuye de manera automatica*/
-    justify-content: space-evenly;/*separa de manera pareja*/
+    /*justify-content: space-between;ubica el primer item y el ultimo cerca de los bordes y los otros los distribuye de manera pareja*/
+    /* justify-content: space-around; deja espacio entre el primer item y el ultimo de los bordes y lo del medio lo distribuye pero visualmente pareciera que no queda equitativo */
+    justify-content: space-evenly;/*separa de manera pareja a todos los items*/
 }
 
 

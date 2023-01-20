@@ -13,11 +13,13 @@
     /*arriba-laterales-abajo*/
     height: 150px;
     position: relative;
+        /*posicionamiento relativo: es el posicionamiento que se mueve en base a donde se ubico ese elemento*/
     top: 50px;
+    /* arriba e izquierda, el movimiento que le doy a la caja */
     left: 50px;
     /*right
     bottom*/
-    /*posicionamiento relativo: es el posicionamiento que se mueve en base a donde se ubico ese elemento*/
+
 }
 
 .celeste  {

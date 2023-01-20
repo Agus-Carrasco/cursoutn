@@ -4,6 +4,9 @@
     /*flex-direction: row-reverse;fila invertida*/
      /* flex-direction: column;tambien esta columna invertida*/
      flex-wrap: wrap;
+     /* controla el desbordamiento del contenedor cuando los items superan el ancho de este */
+     /* nowrap: Establece los items en una sola linea y no permite desborde del contenedor
+     wrap-reverse: Estable los items en modo multilinea, pero en direccion inversa */
 }
 
 .item   {

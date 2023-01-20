@@ -1,12 +1,15 @@
 .contenedor {
     background-color: blueviolet;
-    /*display: flex; posiciona las cajas de items se posicionen de manera horizontal*/
+    /*display: flex; hace que las cajas de items se posicionen de manera horizontal*/
     display: inline-flex;/*la caja contenedora se adapta al tamaño hasta donde llegan las cajas de los items, no se extiende mas*/
 }
+/* La condicion de display flex se aplica sobre el contenedor y no sobre el item */
 
 .item   {
     background-color: aquamarine;
     width: 100px;
+    /* el ancho maximo que van a tener los contenedores utilizando display flex, estos contenedores se vuelven mas flexibles */
     height: 100px;
     margin: 20px;
 }
+

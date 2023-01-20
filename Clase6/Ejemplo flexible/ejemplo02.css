@@ -1,8 +1,10 @@
 .contenedor {
     background-color: blueviolet;
     display: inline-flex;
-    /*flex-direction: row-reverse;fila invertida*/
-    flex-direction: column; /* tambien esta columna invertida*/
+    /* para que los items mantengan su tamaño */
+    /*flex-direction: row-reverse;fila invertida 4-3-2-1*/
+    /* por defecto la direccion viene en fila consecutiva 1-2-3-4 */
+    flex-direction: column; /* tambien está columna invertida flex-direction: column-reverse;*/
 }
 
 .item   {

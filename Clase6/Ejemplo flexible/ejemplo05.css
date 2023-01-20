@@ -13,5 +13,9 @@
     font-size: 25px;
     display: flex;
     justify-content: center;
+    /* lo ponemos en el centro (porque trabaja en el eje de las x) pero quedaria en la parte superior y no en el medio de la caja*/
     align-items: center;
+    /* utilizamos esta propiedad porque tenemos una sola linea y con esto lo posicionamos en el centro del contenedor */
 }
+
+/* ponemos las propiedades directamente en el item para posicionar el numero en el centro de la caja */
