@@ -16,14 +16,17 @@
     background-color: blue;
     color: white;
 }
+/* cambia de color la caja y la palabra cuando el cursor pasa por encima de la caja */
 
 img{
     filter: grayscale(100%);
     transition: all 0.5s ease;
     opacity: 0.5;
 }
+/* le cambia el color a la imagen con un filtro para que cuando pase el cursor aplicando la propiedad img:hover cambie a un color distinto */
 
 img:hover   {
     filter: grayscale(0);
     opacity: 1;
 }
+/* cambia el color de la imagen cuando el cursor pasa por encima */

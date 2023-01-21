@@ -4,10 +4,16 @@
     background-color: aqua;
     font-size: 30px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    /* primero en el eje principal */
+    align-items: center;
+    /* el eje horizontal */
+    /* display, align-itms y justify content para posicionar la palabra "caja" en el centro del cuadrado */
     margin: 100px;
    /* transform: rotate(25deg);*/
-   transform: scale(0.5)/*del 0 al 1 lo achica y de 1 en adelante lo agranda*/ rotate(25deg)
+    transform: scale(0.5)/*del 0 al 1 lo achica y de 1 en adelante lo agranda */rotate(25deg) 
+    /* rotate(25deg)rota la caja 25 grados */
    /*dos transformaciones anidadas*/ 
 }
+
+/* transformacion rotacion */
